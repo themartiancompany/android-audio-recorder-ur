@@ -1,0 +1,16 @@
+pkgbase = android-audio-recorder
+	pkgdesc = Android recorder.
+	pkgver = 0.0.0.0.0.0.0.0.0.0.0.0.0.1.1
+	pkgrel = 1
+	url = https://github.com/themartiancompany/android-audio-recorder
+	arch = any
+	license = AGPL3
+	checkdepends = shellcheck
+	makedepends = make
+	depends = libcrash-bash
+	depends = termux-api
+	source = android-audio-recorder-0a6c745ae4d36f58c3b58c5090747e0f2b0808cf.zip::https://github.com/themartiancompany/android-audio-recorder/archive/0a6c745ae4d36f58c3b58c5090747e0f2b0808cf.zip
+	validpgpkeys = 97E989E6CF1D2C7F7A41FF9F95684DBE23D6A3E9
+	sha256sums = 3b23879581b7c0a62a5193c7d1234a7c1042074be5704b5a9fe549fa54dc2702
+
+pkgname = android-audio-recorder
