@@ -7,7 +7,7 @@ _offline="false"
 _git="false"
 pkgname=android-audio-recorder
 pkgver=0.0.0.0.0.0.0.0.0.0.0.0.0.1.1
-_commit="ff4380fad760388fdb34b2fbfbdbb96741204630"
+_commit="0a6c745ae4d36f58c3b58c5090747e0f2b0808cf"
 pkgrel=1
 _pkgdesc=(
   "Android recorder."
