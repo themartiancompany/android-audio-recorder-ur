@@ -23,10 +23,7 @@ license=(
   AGPL3
 )
 depends=(
-  "android-screen-recorder"
-  "android-audio-recorder"
   "libcrash-bash"
-  "media-tools"
 )
 _os="$( \
   uname \
@@ -34,6 +31,7 @@ _os="$( \
 [[ "${_os}" != "GNU/Linux" ]] && \
 [[ "${_os}" == "Android" ]] && \
   depends+=(
+    "termux-api"
   )
 optdepends=(
 )
